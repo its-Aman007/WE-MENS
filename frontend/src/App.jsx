@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import SearchBar from "./components/SearchBar";
 import About from "./Pages/About";
 import Cart from "./Pages/Cart";
-import Collection from "./Pages/collection";
+import Collection from "./Pages/Collection";
 import Contact from "./Pages/Contact";
 import ForgotPassword from "./Pages/ForgotPassword";
 import Home from "./Pages/Home";

@@ -4,17 +4,17 @@ import 'react-toastify/dist/ReactToastify.css';
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import SearchBar from "./components/SearchBar";
-import About from "./pages/About";
-import Cart from "./pages/Cart";
-import Collection from "./pages/collection";
-import Contact from "./pages/Contact";
-import ForgotPassword from "./pages/ForgotPassword";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Orders from "./pages/Orders";
-import PlaceOrder from "./pages/PlaceOrder";
-import Product from "./pages/Product";
-import Verify from "./pages/Verify";
+import About from "./Pages/About";
+import Cart from "./Pages/Cart";
+import Collection from "./Pages/collection";
+import Contact from "./Pages/Contact";
+import ForgotPassword from "./Pages/ForgotPassword";
+import Home from "./Pages/Home";
+import Login from "./Pages/Login";
+import Orders from "./Pages/Orders";
+import PlaceOrder from "./Pages/PlaceOrder";
+import Product from "./Pages/Product";
+import Verify from "./Pages/Verify";
 
 const App = () => {
   return (

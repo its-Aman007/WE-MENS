@@ -1,8 +1,8 @@
 import { useContext, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { toast } from "react-toastify";
 import assets from "../assets/assets.js";
 import { ShopContext } from "../context/ShopContext";
-import { toast } from "react-toastify";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
@@ -28,7 +28,7 @@ const Navbar = () => {
     <div className="flex items-center justify-between py-5 font-medium">
       {/* Logo */}
       <Link to="/">
-        <img src={assets.logo} className="w-36" alt="Logo" />
+        <img src={assets.logo} className="w-36" alt="Logo" style={{ filter: 'invert(1)' }} />
       </Link>
 
       {/* Desktop Menu */}
